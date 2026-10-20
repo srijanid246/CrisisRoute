@@ -18,8 +18,8 @@ targets 60% of the system as scoped below.
   using pgmpy.
 - **Genetic Algorithm resource allocation**, with a **greedy baseline** for
   comparison — allocates limited resources (vehicles, supplies, personnel)
-  across demand nodes. The GA itself is hand-written (see CLAUDE.md rule on
-  no library implementations for GA/search).
+  across demand nodes. The GA itself is hand-written (see DEVELOPMENT.md
+  rule on no library implementations for GA/search).
 - **Routing**: A*, BFS, DFS implemented by hand over the scenario's road
   network graph.
 - **Dynamic replanning** — reroutes/reallocates when the scenario changes
@@ -55,8 +55,8 @@ frontend/        React + Leaflet dashboard
 eval/            evaluation script
 ```
 
-See [CLAUDE.md](../CLAUDE.md) for coding rules (no comments, hand-written
-GA/search, seeded reproducibility, pytest coverage per module).
+See [DEVELOPMENT.md](../DEVELOPMENT.md) for coding rules (no comments,
+hand-written GA/search, seeded reproducibility, pytest coverage per module).
 
 ## 7. `flood_demo` preset
 

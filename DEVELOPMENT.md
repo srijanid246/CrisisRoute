@@ -1,4 +1,4 @@
-# CLAUDE.md
+# Development Notes
 
 Project reference for working on CrisisRoute. See [docs/PROJECT.md](docs/PROJECT.md)
 for the full project description.
