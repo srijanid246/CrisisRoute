@@ -9,4 +9,3 @@ node_modules/
 frontend/dist/
 frontend/build/
 .env
-.claude/
